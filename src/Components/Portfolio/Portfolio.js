@@ -66,14 +66,14 @@ const Portfolio = () => {
 
                         <Slide bottom>
 
-                            <div key={app.id} className="card w-96 bg-base-100 shadow-xl">
-                                <figure><img src={app.image} alt="Shoes" /></figure>
+                            <div key={app.id} className=" w-96 bg-base-100 shadow-xl">
+                                <figure><img  className='  h-52 w-full' src={app.image} alt="Shoes" /></figure>
                                 <div className="card-body">
-                                    <h2 className="card-title">{app.name}</h2>
+                                    <h2 className="text-2xl ml-2">Name: {app.name}</h2>
 
                                     <div className="card-actions">
-                                        <a href={app.live}> <button className="btn btn-secondary">Live Link</button></a>
-                                        <a href={app.githubClient}><button className="btn btn-primary">Github</button></a>
+                                        <button className="border px-3 py-2 m-2 rounded-md text-white bg-emerald-500"><a href={app.live}> <button >Live Link</button></a></button>
+                                        <button className="border px-3 py-2 m-2 rounded-md text-white bg-teal-500"><a href={app.githubClient}><button >Github</button></a></button>
                                     </div>
                                 </div>
                             </div>

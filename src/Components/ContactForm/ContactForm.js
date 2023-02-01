@@ -22,23 +22,23 @@ const ContactForm = () => {
                         <form onBlur={handleSubmit(handleLogin)} className=' border rounded-lg p-5'>
                             <div className="form-control w-full">
                                 <label className="label">
-                                    <span className="">Name</span>
+                                    <p className="">Name:</p>
                                 </label>
-                                <input {...register("name", { required: "Name is required" })} type="text" placeholder="Enter Your Name" className="input input-bordered md:w-[450px] " />
+                                <input {...register("name", { required: "Name is required" })} type="text" placeholder="Enter Your Name" className=" border rounded-lg p-3 ml-2 mt-2 md:w-[450px] " />
                                 {errors.name && <p className="text-red-600">{errors.name?.message}</p>}
                             </div>
-                            <div className="form-control w-full">
+                            <div className="form-control mt-2 w-full">
                                 <label className="label">
-                                    <span className="">Email</span>
+                                    <p className="">Email:</p>
                                 </label>
-                                <input {...register("email", { required: "Please Enter a valid email address" })} type="email" placeholder="Enter Your Email" className="input input-bordered md:w-[450px] " />
+                                <input {...register("email", { required: "Please Enter a valid email address" })} type="email" placeholder="Enter Your Email" className="border rounded-lg p-3 ml-2 mt-2 md:w-[450px] " />
                                 {errors.email && <p className="text-red-600">{errors.email?.message}</p>}
                             </div>
-                            <div className="form-control w-full">
+                            <div className="form-control mt-2 w-full">
                                 <label className="label">
-                                    <span className="">Your Text</span>
+                                    <p className="">Your Text:</p>
                                 </label>
-                                <textarea {...register("text", { required: "Enter text is required" })} type="text" placeholder="Enter Your Text" className="input input-bordered md:w-[450px] " />
+                                <textarea {...register("text", { required: "Enter text is required" })} type="text" placeholder="Enter Your Text" className="border rounded-lg p-3 ml-2 mt-2 md:w-[450px] " />
                                 {errors.text && <p className="text-red-600">{errors.text?.message}</p>}
                             </div>
                             <div id='btn' className='form-control rounded-xl  w-44 mt-5'>

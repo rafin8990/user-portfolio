@@ -11,13 +11,13 @@ import Slide from 'react-reveal/Slide';
 
 const Introduction = () => {
     return (
-        <div>
+        <div id='about'>
             <Slide bottom>
                 <div className='md:flex items-center '>
                     <div>
                         <div className='ml-5 md:ml-0 flex items-center'>
                             <div className=' flex justify-center'>
-                                <img id='img' className=' rounded-full border' src={profile} alt="" />
+                                <img id='img' className=' rounded-full border lg:ml-40' src={profile} alt="" />
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ const Introduction = () => {
                             <p className='text-gray-500'>Hi , I’m Rafin Hossain. I’m a web developer living in Dhaka, Bangladesh. I am a fan of photography, technology, and programming. I’m also interested in web development. I'm familiar with a variety of programming languages, including JavaScript, HTML, CSS, React, Tailwind CSS, Bootstrap, Daisy UI, MaterialUI, ES6, NodeJS, ExpressJS , MongoDB. </p>
                             <div className='flex flex-col md:flex-row'>
                                 <div id='btn' className=' rounded-3xl  w-44 mt-5'>
-                                    <Link to=''><button id='text'>
+                                    <Link to='#contact'><button id='text'>
                                         <div className='flex items-center'>
                                             <p className='mx-5'>More About Me</p>
                                             <p className='bg-cyan-500 rounded-full '><HiArrowNarrowRight></HiArrowNarrowRight></p>
