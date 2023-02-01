@@ -41,7 +41,7 @@ const Skills = () => {
             </div>
             <div>
                 <h1 className='text-xl text-center font-semibold'>Language ,FrameWork & Database</h1>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-5 mt-5'>
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-5 mx-2 lg:mx-5 '>
                     <Slide bottom>
                         <div className='border border-cyan-900 p-5 rounded-xl shadow-2xl'>
                             <div className='flex justify-center'>
@@ -114,7 +114,7 @@ const Skills = () => {
                 </div>
             </div>
 
-            <div className='flex justify-center my-10 '>
+            <div className='sm:hidden md:flex justify-center my-10  '>
                 <Slide bottom>
                     <div className='lg:w-1/2 py-10 bg-black p-5 rounded-lg shadow-2xl '>
                         <SkillBar skills={skills} colors={colors}></SkillBar>
@@ -123,7 +123,7 @@ const Skills = () => {
             </div>
             <div className='flex justify-center mb-10'>
                 <div id='btn' className='w-60 rounded-2xl ml-0 md:ml-5'>
-                    <a href='' download>
+                    <a href='#resume' download>
 
                         <button id='text' >
                             <div className='flex items-center'>
