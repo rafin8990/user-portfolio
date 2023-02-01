@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/user-portfolio/static/css/main.ae94464f.css",
+    "main.js": "/user-portfolio/static/js/main.a3604184.js",
+    "static/js/787.a2cb61a6.chunk.js": "/user-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/exclusive-photography.firebaseapp.com_ (2).png": "/user-portfolio/static/media/exclusive-photography.firebaseapp.com_ (2).ec9603ffe257e01a0b27.png",
+    "static/media/skillshop-academy.firebaseapp.com_.png": "/user-portfolio/static/media/skillshop-academy.firebaseapp.com_.21beee8c65f7d7e6f73f.png",
+    "static/media/doctors-portal-349f1.firebaseapp.com_.png": "/user-portfolio/static/media/doctors-portal-349f1.firebaseapp.com_.4d9d96885963b3799291.png",
+    "static/media/rafin8990.github.io_panda-comerce_.png": "/user-portfolio/static/media/rafin8990.github.io_panda-comerce_.dd0260a301f49c3d1c1b.png",
+    "static/media/rafin8990.github.io_Digital-learning_.png": "/user-portfolio/static/media/rafin8990.github.io_Digital-learning_.4be842a1dc7363018ecc.png",
+    "static/media/ema-john-authentication-76f63.firebaseapp.com_ (1).png": "/user-portfolio/static/media/ema-john-authentication-76f63.firebaseapp.com_ (1).673fd9073e478ceb8cf5.png",
+    "static/media/firebase.webp": "/user-portfolio/static/media/firebase.edc944381935beb8353a.webp",
+    "static/media/React-logo.png": "/user-portfolio/static/media/React-logo.81ed438b18e24116794d.png",
+    "static/media/logo.png": "/user-portfolio/static/media/logo.aa6cdece2d37d2491908.png",
+    "static/media/express.png": "/user-portfolio/static/media/express.4d30ee2cf2710afdde93.png",
+    "static/media/MongoDb.png": "/user-portfolio/static/media/MongoDb.48284bebb3007b28af6a.png",
+    "static/media/CSS.png": "/user-portfolio/static/media/CSS.338abb3be01f2f0d3ac7.png",
+    "static/media/profile.webp": "/user-portfolio/static/media/profile.b5dd3a954c49079a4a12.webp",
+    "static/media/JavaScript.png": "/user-portfolio/static/media/JavaScript.7f8751632b42a9932c15.png",
+    "static/media/Bootstrap_logo.svg.png": "/user-portfolio/static/media/Bootstrap_logo.svg.ffb9feeab82b4f8d39f5.png",
+    "static/media/Tailwind_CSS_Logo.svg.png": "/user-portfolio/static/media/Tailwind_CSS_Logo.svg.8f03e0a31e494b7425bf.png",
+    "index.html": "/user-portfolio/index.html",
+    "main.ae94464f.css.map": "/user-portfolio/static/css/main.ae94464f.css.map",
+    "main.a3604184.js.map": "/user-portfolio/static/js/main.a3604184.js.map",
+    "787.a2cb61a6.chunk.js.map": "/user-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae94464f.css",
+    "static/js/main.a3604184.js"
+  ]
+}
